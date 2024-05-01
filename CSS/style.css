@@ -12,3 +12,23 @@ sintaxis de css
     propiedad : valor:
     propiedad : valor:
 } */
+h1{
+    color: green;
+    background-color: beige;
+}
+html{
+    background-color: #ffe0e9;
+}
+p{
+    color: aqua;
+}
+div{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+a{
+    background-color: purple;
+}
