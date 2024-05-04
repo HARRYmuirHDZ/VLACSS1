@@ -1,9 +1,9 @@
-html{
+/* html{
     background-color: black;
 }
 body{
     color: bisque;
-}
+} */
 
 /* 
 sintaxis de css
@@ -12,7 +12,7 @@ sintaxis de css
     propiedad : valor:
     propiedad : valor:
 } */
-h1{
+/* h1{
     color: green;
     background-color: beige;
 }
@@ -31,4 +31,39 @@ div{
 }
 a{
     background-color: purple;
+} */
+
+
+#idcaja4{
+    color: rgb(71, 71, 113);
+}
+
+.caja1 { color: green;
+        background-color: yellow;
+        height: 250px;
+        width: 250px;
+
+        border: 4px solid black;
+        padding: 20px 5px 20px 10px;
+        /* el padding acomoda los pixeles a favor del RELOJ
+        PERO CON SOLO PONER 20PX 10 PX MAS QUE SUFICIENTE */
+        margin-bottom: 20px;
+
+
+}
+.caja2 { color: black;
+        background-color: #fff;
+        height: 250px;
+        width: 250px;
+
+        /* border: 10px solid silver; */
+}
+.caja3 { color: orange;
+        background-color: #fff;
+        height: 250px;
+        width: 250px;
+} 
+
+body{
+    background-color: rgba(112, 112, 211, 0.874);
 }
