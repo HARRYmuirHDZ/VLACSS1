@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: linear-gradient(180deg, #ff5ac8 0, #ff54b7 5%, #ff51a5 10%, #ff4f94 15%, #ff5183 20%, #ff5572 25%, #ff5b61 30%, #ff6251 35%, #ff6a41 40%, #fd7331 45%, #f37b1f 50%, #e88305 55%, #db8a00 60%, #ce9100 65%, #bf9800 70%, #b09d00 75%, #9fa300 80%, #8ea700 85%, #7bab00 90%, #66ae15 95%, #4db12b 100%);
+}
+body{
+    width: 90%;
+    height: 1000px;
+    margin: 15px auto;
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+/* main{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 500px;
+    margin: 30px auto;
+    padding: 10px;
+
+} */
+header{
+    
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+}
+
+.logo img{
+    position: sticky;
+    width: 200px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+    
+}
+nav ul li:last-child {
+    margin-right: 0;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    width: 90%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    bottom: 0;
+    position: fixed ;
+}
+.limpiar{
+    clear: both;
+}
+main{
+    padding: 20px;
+}
+#float-clear{}
+.separador{
+    border: 1px #333;
+    margin-top: 20px;
+    margin-bottom: 20px 0;
+    clear: both;
+    
+
+}
+.seccion{
+    background-image: radial-gradient(circle at 50% -13.29%, #ffff82 0, #ffff8a 6.25%, #eaff92 12.5%, #d0ff9c 18.75%, #b5ffa5 25%, #97ffae 31.25%, #76ffb5 37.5%, #52ffbb 43.75%, #1ef3bd 50%, #00e3be 56.25%, #00d5bf 62.5%, #00c9c0 68.75%, #00c0c2 75%, #00b8c5 81.25%, #00b1c9 87.5%, #00adce 93.75%, #00abd4 100%);
+
+}
+.subtitulo{
+    font-size: 1.5em;
+
+}
+.parrafo{
+    font-size: 1.2em;
+}
